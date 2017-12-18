@@ -1,0 +1,164 @@
+
+
+li { list-style-type: none;}
+
+ul {
+  /*height: auto;
+  width: auto;*/
+}
+input {
+  font-size: 25px;
+}
+
+#search{
+  width: 467px;
+}
+#menu{
+  width: 75px;
+}
+#kendrick{
+  width: 400px;
+}
+.top-right {
+  flex: 1;
+  display: flex;
+  background: white;
+}
+.top-right img{
+  height: 80px;
+}
+.data {
+  display: flex;
+  flex: 1;
+  background: white;
+}
+.web {
+  flex: 1;
+  background: white;
+  flex-direction: column;
+}
+.images {
+  flex: 1;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.boxed {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+.boxed img {
+  height: 80px;
+  width: 120px;
+}
+.container {
+  background: linear-gradient( #34638f, #062132);
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  padding: 90px 150px 80px 150px;
+  flex-direction: column;
+}
+#google{
+  width: 275px;
+}
+.app {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.topNav {
+  height: 80px;
+  width: 100%;
+  background: white;
+  display: flex;
+}
+.content {
+  flex: 1;
+  background: white;
+  display: flex;
+}
+.sidebar {
+  width: 275px;
+  background-color: rgb(41, 47, 50);
+  padding-top: 40px;
+}
+.sidebar p, li {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.sidebar img {
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+}
+.web h1{
+  color: rgb(75, 75, 75);
+  padding-left: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter !important;
+}
+.web h2{
+  margin-top: 30px;
+  padding-left: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter !important;
+  color: rgb(105, 157, 202)
+}
+.web p{
+  padding-left: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: rgb(75, 75, 75);
+  margin-bottom: 20px;
+}
+.image-text{
+  margin: 26px;
+  border-bottom: grey;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+
+}
+.web .image-text {
+  padding-top: 1px;
+}
+.image-text h1{
+color: rgb(75, 75, 75);
+padding-left: 26px;
+font-family: 'Roboto', sans-serif;
+font-weight: lighter !important;
+}
+.big_lion{
+  justify-content: center;
+  display: flex;
+}
+.big_lion img{
+  height: 250px;
+  width: 500px;
+}
+.small-image{
+justify-content: space-between;
+display: flex;
+margin: 0px 26px;
+padding: 4px;
+background-color: rgb(41, 47, 50)
+}
+.map-image{
+  justify-content: center;
+  display: flex;
+}
+.map-image img{
+  height: 250px;
+  width: 500px;
+}
+.map {
+  flex: 1;
+  margin-bottom: 40px;
+}
+body {
+  margin: 0;
+}
